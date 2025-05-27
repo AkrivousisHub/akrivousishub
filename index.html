@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akrivousis Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #444;
+      flex-wrap: wrap;
+    }
+    nav a {
+      padding: 15px;
+      color: white;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #666;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    form input, form textarea, form select {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Akrivousis Hub</h1>
+    <p>Your Partner in Progress</p>
+  </header>
+
+  <nav>
+    <a href="#home">Αρχική</a>
+    <a href="#categories">Κατηγορίες</a>
+    <a href="#events">Δράσεις/Εκδηλώσεις</a>
+    <a href="#projects">Τα Έργα Μας</a>
+    <a href="#eshop">eShop</a>
+    <a href="#blog">Ιστολόγιο / Νέα</a>
+    <a href="#contact">Επικοινωνία</a>
+  </nav>
+
+  <section id="home">
+    <h2>Καλώς ήρθατε στο Akrivousis Hub</h2>
+    <p>Ο ψηφιακός μου εαυτός. Εδώ θα βρείτε όλα τα έργα και τις δραστηριότητές μου στους τομείς της αγροτικής παραγωγής, του τουρισμού, της εκπαίδευσης, της μουσικής, της μαγειρικής, των video games και πολλά ακόμα.</p>
+  </section>
+
+  <section id="categories">
+    <h2>Κατηγορίες</h2>
+    <ul>
+      <li>Πρωτογενής Τομέας</li>
+      <li>Τουρισμός</li>
+      <li>Εκπαίδευση</li>
+      <li>Περιβάλλον</li>
+      <li>Μαγειρική</li>
+      <li>Μουσική / Βίντεο / Podcasts</li>
+      <li>Gaming Content</li>
+    </ul>
+  </section>
+
+  <section id="events">
+    <h2>Δράσεις και Εκδηλώσεις</h2>
+    <h3>Δράσεις</h3>
+    <p>Τοπικές πρωτοβουλίες και δράσεις στους τομείς του περιβάλλοντος, της παραγωγής και του πολιτισμού.</p>
+    <h3>Εκδηλώσεις</h3>
+    <p>Συνέδρια, φεστιβάλ, γιορτές, παρουσιάσεις.</p>
+    <h3>Τοπικά</h3>
+    <p>Παρακολούθηση και προβολή τοπικού περιεχομένου – Google Maps Local Guide.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Τα Έργα Μας</h2>
+    <p>Παρουσίαση όλων των μεγάλων projects, όπως: Φάρμα Ακριβούσης 1.0 & 2.0, Gruppo Pistacchi, GrowLine S.A., MyEmporio, Modular x Wespark, Novus-Edel-Ovelin, Φεστιβάλ Φιστικιού, Akrivousis Partner Team Development, Πανεπιστημιακά Project κ.ά.</p>
+  </section>
+
+  <section id="eshop">
+    <h2>eShop</h2>
+    <p>Προϊόντα και υπηρεσίες διαθέσιμα προς πώληση. (Θα προστεθεί σύντομα...)</p>
+  </section>
+
+  <section id="blog">
+    <h2>Ιστολόγιο / Νέα</h2>
+    <p>Ενημερωθείτε για τις τελευταίες εξελίξεις, νέα, δράσεις και δημοσιεύσεις μας.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Επικοινωνία</h2>
+    <p>Μπορείτε να επικοινωνήσετε μαζί μου μέσω email, τηλεφώνου ή συμπληρώνοντας την παρακάτω φόρμα.</p>
+    
+    <form action="mailto:example@email.com" method="post" enctype="text/plain">
+      <label for="name">Όνομα:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="topic">Ενδιαφέρεστε για:</label>
+      <select id="topic" name="topic">
+        <option value="general">Γενική Επικοινωνία</option>
+        <option value="work">Συνεργασία - Work With Me</option>
+        <option value="media">Press / Δημοσιότητα</option>
+      </select>
+
+      <label for="message">Μήνυμα:</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <input type="submit" value="Αποστολή">
+    </form>
+
+    <h3>Work With Me</h3>
+    <p>Θέλεις να δουλέψουμε μαζί σε ένα project; Συμπλήρωσε την παραπάνω φόρμα και θα έρθω σε επαφή μαζί σου!</p>
+
+    <h3>Press Kit</h3>
+    <p>Επικοινώνησε μαζί μου για πρόσβαση σε υλικό παρουσίασης.</p>
+
+    <h3>Όροι Χρήσης & Πολιτική Απορρήτου</h3>
+    <p>Η χρήση της ιστοσελίδας διέπεται από τους αντίστοιχους όρους. Το προσωπικό απόρρητο διασφαλίζεται με βάση τον ΓΚΠΔ.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Akrivousis Hub – All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
